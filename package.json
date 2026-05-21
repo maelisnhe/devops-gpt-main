@@ -1,0 +1,12 @@
+{
+  "name": "devopsgpt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "npm run test -w backend && cd frontend && node ../node_modules/vite/bin/vite.js build"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}
